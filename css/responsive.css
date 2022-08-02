@@ -1,9 +1,6 @@
 @media (min-width:375px) and (min-height:700px){            /*Smartphones*/
     #firstSection{
-        margin: 20% 0% 20% 0%;
-    }
-    #fsTitle{
-        margin-top: 15%;
+        margin: 30% 0% 20% 0%;
     }
     #secondSectionUl{
         font-size: 1.4em;
