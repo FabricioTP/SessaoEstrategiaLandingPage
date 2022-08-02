@@ -1,10 +1,13 @@
 @media (min-width:375px) and (min-height:690px){            /*Smartphones*/
     #firstSection{
-        margin: 35% 0% 35% 0%;
+        margin: 40% 0% 35% 0%;
     }
     #secondSectionUl{
         font-size: 1.4em;
         padding-left: 1.5%;
+    }
+    #secondSection .buyBtn{
+        margin-top: 5%;
     }
     #thirdSection h1{
         margin-top: 30%;
