@@ -13,6 +13,9 @@
         height: 105vh;
         margin-top: 3%;
     }
+    #fourthSection .buyBtn{
+        height: 9vh;
+    }
     #finalSection{
         margin-top: 10%;
     }
