@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;1,300&display=swap');
+
 *{
     margin:0;
     padding:0;
+    font-family: 'Roboto', sans-serif;
 }
 html{
     width: 100%;
@@ -65,8 +68,7 @@ header span{
 #fsSubText2{
     margin-bottom: 8%;
     font-size: 1.4em;
-    color: rgb(66, 66, 66);
-    font-weight: lighter;
+    color: rgb(49, 49, 49);
 }
 #fsSubText2 strong{
     font: bolder;
@@ -82,7 +84,7 @@ header span{
     font-size: 1.1em;
 }
 #secondSection{
-    height: 83vh;
+    height: 88vh;
     padding: 3%;
     text-align: center;
 }
@@ -91,12 +93,11 @@ header span{
 }
 #secondSectionFstP{
     font-size: 1.3em;
-    font-weight: lighter;
     line-height: 1.4;
     margin-bottom: 5%;
 }
 #secondSectionScdP{
-    font-size: 1.4em;
+    font-size: 1.2em;
     margin-bottom: 5%;
 }
 #secondSectionScdP strong{
@@ -139,4 +140,60 @@ header span{
 .thirdSectionP{
     font-size: 1.6em;
     margin-bottom: 9%;
+    padding: 0 3% 0 3%;
+}
+#fourthSection{
+    height: 88vh;
+    text-align: center;
+    font-size: 20px;
+    padding: 3%;
+}
+#fourthSection h3{
+    font-size: 1.4em;
+    margin-bottom: 3%;
+}
+#fourthSectionH4{
+    margin-bottom: 3%
+}
+#fourthSection h4 span{
+    background-color: rgb(74, 175, 99);
+    color: #fff;
+    font-size: 1em;
+}
+#fourthSection h2{
+    font-size: 2em;
+    margin-bottom: 5%;
+}
+.fourthSectionPTitles{
+    font-size: 1.3em;
+}
+.fourthSectionP{
+    margin-bottom: 5%;
+}
+#finalSection{
+    text-align: center;
+    font-size: 14px;
+    padding: 3%;
+}
+#finalSection h1{
+    margin-bottom: 5%;
+}
+#quemESpan{
+    color: rgb(48, 110, 204);
+    display: inline;
+}
+#finalSection h1 span{
+    color: #fff;
+    background-color: black;
+    font-size: 3em;
+}
+#finalSection img{
+    width: 70vw;
+    margin-bottom: 7%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px #000;
+}
+#finalSectionFinalP{
+    font-size: 1.6em;
+    padding-bottom: 10%;
 }
