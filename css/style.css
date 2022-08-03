@@ -21,7 +21,6 @@ body{
     min-height: 100%;
 }
 header{
-    height: 13vh;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -45,7 +44,8 @@ header span{
     justify-content:center;
     text-align:center;
     padding: 1.5%;
-    height: 85vh;
+    font-size: 14px;
+    margin-bottom: 1em;
 }
 #fsTitle{
     display:flex;
@@ -69,11 +69,11 @@ header span{
     color: #fff;
 }
 #fsSubText1{
-    margin: 6% 0% 5% 0%;
+    margin: 3% 0 3% 0;
     font-size: 1.6em;
 }
 #fsSubText2{
-    margin-bottom: 8%;
+    margin-bottom: 3%;
     font-size: 1.4em;
     color: rgb(49, 49, 49);
 }
@@ -85,7 +85,7 @@ header span{
     width: 70vw;
     padding: 2%;
     border-radius: 10px;
-    margin: 7% 0 1% 0;
+    margin-top: 3%;
     background-color: rgb(50, 171, 201);
     color: #fff;
     font-size: 1.2em;
@@ -102,17 +102,19 @@ header span{
     font-size: 1.1em;
 }
 #secondSection{
-    height: 88vh;
     padding: 3%;
     text-align: center;
+    font-size: 14px;
+    margin-bottom: 3.5em;
 }
 #secondSectionFstH1{
-    margin-bottom: 5%;
+    margin-bottom: 2%;
 }
 #secondSectionFstP{
+    font-weight: 500;
     font-size: 1.3em;
     line-height: 1.4;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
 }
 #secondSectionScdP{
     font-size: 1.2em;
@@ -124,32 +126,28 @@ header span{
 #secondSectionUl{
     list-style: none;
     text-align: left;
-    font-size: 1.6em;
+    font-size: 1.4em;
 }
 #secondSectionUl li{
     margin-bottom: 5%;
 }
-#secondSectionLastH1{
-    margin-top: 15%;
-}
-#secondSectionLastH1 span{
-    font-size: 1.1em;
-    background-color: rgb(50, 176, 214);
+#secondSection .buyBtn{
+    margin-top: 2.5em;
 }
 #thirdSection{
     background-color: #225187;
-    background: linear-gradient(135deg, #1683d555 25%, transparent 25%) -17px 0/ 34px 34px, linear-gradient(225deg, #1683d5 25%, transparent 25%) -17px 0/ 34px 34px, linear-gradient(315deg, #1683d555 25%, transparent 25%) 0px 0/ 34px 34px, linear-gradient(45deg, #1683d5 25%, #225187 25%) 0px 0/ 34px 34px;
-    height: 10%;
+    background: linear-gradient(135deg, #1683d555 25%, transparent 25%) -17px 0/ 34px 34px, linear-gradient(225deg, #136fb6 25%, transparent 25%) -17px 0/ 34px 34px, linear-gradient(315deg, #1683d555 25%, transparent 25%) 0px 0/ 34px 34px, linear-gradient(45deg, #10588f 25%, #225187 25%) 0px 0/ 34px 34px;
     text-align: center;
-    font-size: 20px;
+    font-size: 17px;
     padding-bottom: 5%;
 }
 #thirdSection h1{
+    padding: 0.3em;
     font-size: 2em;
     font-weight: bold;
     background-color: #000;
     color: #fff;
-    margin-bottom: 17%;
+    margin-bottom: 3%;
 }
 #thirdSectionLastP{
     width: 80vw;
@@ -161,16 +159,16 @@ header span{
 }
 .thirdSectionP{
     font-size: 1.6em;
-    margin-bottom: 9%;
+    margin-bottom: 4%;
     padding: 0 3% 0 3%;
-    color: #fff;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
 }
 #fourthSection{
-    height: 88vh;
     text-align: center;
-    font-size: 20px;
     padding: 3%;
-    border-bottom: 1.5em solid #225187;
+    border-bottom: 1em solid #225187;
+    font-size: 17px;
 }
 #fourthSection h3{
     font-size: 1.4em;
@@ -187,23 +185,26 @@ header span{
 }
 #fourthSection h2{
     font-size: 2em;
-    margin-bottom: 5%;
+    margin: 5% 0 5% 0;
 }
 .fourthSectionPTitles{
     font-size: 1.3em;
+    margin-bottom: 1em;
 }
 .fourthSectionP{
-    margin-bottom: 5%;
+    margin-bottom: 3%;
+    font-weight: 500;
 }
 #finalSection{
     text-align: center;
-    font-size: 14px;
+    font-size: 13px;
     padding: 3%;
 }
 #finalSection h1{
-    margin-bottom: 15%;
-    border-bottom: #1683d5 .8em solid;
-    padding-bottom: 3%;
+    font-size: 1.1em;
+    margin-bottom: 3%;
+    border-bottom: #1683d5 .4em solid;
+    padding-bottom: 1%;
     display: inline-block;
 }
 #quemESpan{
@@ -211,18 +212,18 @@ header span{
     display: inline;
 }
 #finalSection h1 span{
-    font-size: 3em;
+    font-size: 2.8em;
 }
 #finalSection img{
-    width: 70vw;
-    margin-bottom: 7%;
+    width: 60vw;
+    margin-bottom: 4%;
     border-radius: 10px;
-    box-shadow: 2px 2px 3px #000;
+    box-shadow: -3px 1px 10px #000;
 }
 #finalSectionFinalP{
-    font-size: 1.6em;
-    padding-bottom: 5%;
+    font-size: 1.4em;
+    padding-bottom: 2%;
 }
 #finalSection button{
-    margin-top: 5%;
+    margin-top: 2%;
 }

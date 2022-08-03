@@ -1,164 +1,122 @@
-@media (min-width:375px) and (min-height:690px){            /*Smartphones*/
+@media (min-width:760px){
     #firstSection{
-        margin: 40% 0% 35% 0%;
-    }
-    #secondSectionUl{
-        font-size: 1.4em;
-        padding-left: 1.5%;
-    }
-    #secondSection .buyBtn{
-        margin-top: 5%;
-    }
-    #thirdSection h1{
-        margin-top: 30%;
-    }
-    #fourthSection{
-        height: 105vh;
-        margin-top: 3%;
-    }
-    #fourthSection .buyBtn{
-        height: 9vh;
-    }
-    #finalSection{
-        margin-top: 10%;
-    }
-    #finalSection h1 span{
-        font-size: 2.3em;
-    }
-}
-@media (min-width:760px) and (min-height:850px){
-    #firstSection{
-        margin: 3% 0% 3% 0%;
-    }
-    #fsSubText2{
-        margin-bottom: 1%;
-    }
-    #firstSection .buyBtn{
-        margin-top: 5%;
-    }
-    #thirdSection h1{
-        margin: 7% 0 7% 0;
-    }
-    .thirdSectionP{
-        font-size: 1.5em;
-    }
-    #thirdSectionLastP{
-        font-size: 1.5em;
-    }
-    #fourthSection{
-        height: 85vh;
-        margin-top: 5%;
-    }
-    #finalSection{
-        margin-top: 5%
-    }
-    #finalSection h1{
-        margin-bottom: 7%;
-    }
-}
-@media (min-width:1100px) and (min-height:900px){
-    #firstSection{
-        margin: 0%;
-        font-size: 20px;
-    }
-    #fsSubText2{
-        margin-bottom: 1%;
-    }
-    #firstSection .buyBtn{
-        margin-top: 2%;
-    }
-    #secondSection{
-        font-size: 18px;
-    }
-    #secondSection .buyBtn{
-        margin-top: 2%;
-    }
-    #secondSectionUl li{
-        margin-bottom: 3.5%;
-    }
-    #thirdSection{
-        height: 85vh;
-        font-size: 22px;
-    }
-    #thirdSection h1{
-        margin: 7% 0 3% 0;
-    }
-    .thirdSectionP{
-        margin-bottom: 5%;
-    }
-    #thirdSectionLastP{
-        margin: 5% auto;
-    }
-    #fourthSection{
-        height: 85%;
-        margin-top: 3%;
-        font-size: 26px;
-    }
-    #fourthSection h2{
-        margin-top: 3%;
-    }
-    .fourthSectionP{
-        font-size: 1.2em;
-    }
-    .fourthSectionPTitles{
-        font-size: 1.3em;
         margin-bottom: 3%;
     }
-    #finalSection{
-        height: 97vh;
+    #fsSubText2{
+        margin-bottom: 1%;
+    }
+    #firstSection .buyBtn{
         margin-top: 3%;
+    }
+    #secondSection{
         font-size: 15px;
+    }
+    #secondSection .buyBtn{
+        margin-top: 3%;
+    }
+    #thirdSection{
+        font-size: 20px;
+        padding-bottom: 5%;
+    }
+    .thirdSectionP{
+        font-size: 1.5em;
+    }
+    #thirdSectionLastP{
+        font-size: 1.5em;
+    }
+    #fourthSection{
+        margin-top: 2%;
+        font-size: 19px;
+    }
+    #finalSection{
+        padding: 1%;
+        margin-top: 0%;
+        font-size: 12px;
     }
     #finalSection h1{
         margin-bottom: 2%;
     }
     #finalSection img{
-        display: block;
-        width: 50vw;
-        margin: 3% auto 3% auto;
+        margin-bottom: 2%;
     }
-    #finalSectionFinalP{
-        font-size: 2em;
+    #finalSection .buyBtn{
+        margin-top: 1%;
+        height: 9vh;
     }
+
 }
-@media (min-width:2000px){
+@media (min-width:1100px){
     .buyBtn{
-        width: 50vw;
+        width: 40vw;
     }
-    #secondSection{
-        height: 50vw;
-        font-size: 22px;
+    #secondSection li{
+        margin-bottom: 2%;
     }
     #thirdSection{
-        height: 76vh;
-        padding-bottom: 3%;
+        font-size: 22px;
     }
-    #thirdSectionLastP{
-        margin: 1% auto;
+    .thirdSectionP{
+        margin-bottom: 3%;
     }
     #fourthSection{
-        margin-top: 1%;
+        margin: 0;
+        padding: 2%;
+        font-size: 22px;
+    }
+    #fourthSection .buyBtn{
+        width: 40vw;
+        height: 10vh;
+    }
+    #fourthSection h2{
+        margin: 1.5%
     }
     .fourthSectionP{
         margin-bottom: 2%;
+        font-weight: 500;
     }
     #finalSection{
-        margin-top: 1%;
-        padding-top: 2%;
+        font-size: 14px;
     }
     #finalSection h1{
-        margin-bottom: 0%;
-        padding: 1%;
+        margin: 0;
+        padding: 0%;
     }
     #finalSection img{
         width: 40vw;
-        margin: 1% auto 3% auto;
+        display: block;
+        margin: 1.5% auto;
     }
     #finalSectionFinalP{
-        width: 70vw;
         margin: 0 auto;
+        width: 80vw;
+        font-size: 1.3em;
+        padding-bottom: 1.7%;
     }
     #finalSection .buyBtn{
-        margin-top: 0%;
+        margin: 0;
+        padding: 0;
+        height: 10vh;
+    }
+}
+@media (min-width:1840px){
+    #firstSection{
+        font-size: 18.2px;
+    }
+    #secondSection{
+        font-size: 18.2px;
+    }
+    #thirdSection{
+        font-size: 22px;
+    }
+    #fourthSection{
+        font-size: 22px;
+    }
+    #finalSection{
+        font-size: 14px;
+    }
+    #finalSectionFinalP{
+        margin: 0 auto;
+        width: 85vw;
+        font-size: 1.6em;
     }
 }
