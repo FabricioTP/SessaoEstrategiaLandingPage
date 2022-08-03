@@ -44,7 +44,7 @@ header span{
     justify-content:center;
     text-align:center;
     padding: 1.5%;
-    font-size: 13.2px;
+    font-size: 13px;
     margin-bottom: 1em;
 }
 #fsTitle{
@@ -53,7 +53,7 @@ header span{
     align-items:center;
 }
 #sessaoEstrategicaH3{
-    margin-bottom: 7%;
+    margin-bottom: 6%;
     color: rgb(48, 110, 204);
     font-size: 2.5em;
 }
