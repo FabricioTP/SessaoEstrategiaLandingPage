@@ -1,25 +1,34 @@
-@media (min-width:760px){
+@media (min-width:670px){
     #firstSection{
-        margin-bottom: 8%;
+        margin-bottom: 3em;
+    }
+    #fsSubText1{
+        font-size: 1.7em;
+        width: 90vw;
     }
     #fsSubText2{
+        font-size: 1.5em;
+        width: 90vw;
         margin-bottom: 1%;
     }
     #firstSection .buyBtn{
         margin-top: 3%;
     }
     #secondSection{
-        font-size: 18px;
+        font-size: 16px;
     }
     #secondSection .buyBtn{
         margin-top: 3%;
     }
+    #secondSectionUl li{
+        margin-bottom: 1.3em;
+    }
     #thirdSection{
-        font-weight: 500;
-        font-size: 20px;
-        padding-bottom: 5%;
+        font-size: 17px;
+        padding-bottom: 0%;
     }
     .thirdSectionP{
+        font-weight: 400;
         font-size: 1.5em;
     }
     #thirdSectionLastP{
@@ -29,12 +38,18 @@
         margin-top: 2%;
         font-size: 20px;
     }
-    .fourthSectionPTitles{
+    #fourthSection h2{
         font-size: 2em;
+    }
+    #fourthSection h3{
+        font-size: 1.5em;
+    }
+    .fourthSectionPTitles{
+        font-size: 1.5em;
         margin-bottom: .8em;
     }
     .fourthSectionP{
-        font-size: 1.3em;
+        font-size: 1.1em;
         font-weight: 500;
     }
     #finalSection{
@@ -44,9 +59,18 @@
     }
     #finalSection h1{
         margin-bottom: 2%;
+        font-size: 1.7em;
+    }
+    #quemESpan{
+        font-size: 1.3em;
     }
     #finalSection img{
-        margin-bottom: 2%;
+        display: block;
+        margin-bottom: 7%;
+    }
+    #finalSectionFinalP{
+        font-size: 1.5em;
+        margin-bottom: 3%;
     }
     #finalSection .buyBtn{
         margin-top: 1%;
@@ -66,13 +90,27 @@
         margin-top: 3em;
     }
     #secondSection{
+        text-align: center;
         font-size: 18px;
+    }
+    #secondSectionFstP{
+        text-align: initial;
+    }
+    #secondSectionScdP{
+        text-align: initial;
+    }
+    #secondSection ul{
+        margin-left: 0;
     }
     #secondSection li{
         margin-bottom: 4%;
     }
+    #secondSection .buyBtn{
+        text-align: center;
+    }
     #thirdSection{
-        font-size: 20px;
+        text-align: center;
+        font-size: 24px;
     }
     .thirdSectionP{
         margin-bottom: 3%;
@@ -80,9 +118,10 @@
     #fourthSection{
         margin: 0;
         padding: 2%;
-        font-size: 20px;
+        font-size: 24px;
     }
     #fourthSection .buyBtn{
+        font-size: .8em;
         width: 40vw;
         height: 11vh;
     }
@@ -94,22 +133,25 @@
         font-weight: 500;
     }
     #finalSection{
-        font-size: 14px;
+        font-size: 15px;
     }
     #finalSection h1{
         margin: 0;
         padding: 0%;
     }
+    #quemESpan{
+        font-size: 1.4em;
+    }
     #finalSection img{
-        width: 50vw;
+        width: 60vw;
         display: block;
-        margin: 1.5% auto;
+        margin: 5% auto;
     }
     #finalSectionFinalP{
         margin: 0 auto;
         width: 80vw;
-        font-size: 2em;
-        padding-bottom: 1.7%;
+        font-size: 1.6em;
+        margin-bottom: 2%;
     }
     #finalSection .buyBtn{
         margin: 0;
@@ -118,26 +160,44 @@
         font-size: 1.3em;
     }
 }
-@media (min-width:1840px){
+@media (min-width:1500px){
     #firstSection{
         font-size: 18.2px;
     }
+    #fsSubText1{
+        font-size: 1.7em;
+        width: 50vw;
+    }
+    #fsSubText2{
+        font-size: 1.4em;
+        width: 50vw;
+        margin-bottom: 0%;
+    }
     #secondSection{
-        font-size: 20px;
+        font-size: 19px;
+    }
+    #secondSection li{
+        margin-bottom: 3%;
     }
     #secondSection .buyBtn{
         margin: 0;
     }
     #thirdSection{
-        font-size: 22px;
-        padding-bottom: 1em;
+        font-size: 20px;
+        padding-bottom: 0;
+    }
+    #thirdSectionLastP{
+        margin-bottom: 0;
     }
     #fourthSection{
         font-size: 24px;
     }
     #fourthSection h3, #fourthSection h2, .fourthSectionPTitles, .fourthSectionP{
-        width: 70vw;
+        width: 85vw;
         margin: 0 auto;
+    }
+    .fourthSectionP{
+        font-size: 1.1em;
     }
     #fourthSection h2{
         margin: 1em auto;
@@ -149,9 +209,14 @@
         margin-bottom: 1em;
     }
     #finalSection{
-        font-size: 14px;
+        font-size: 12px;
+    }
+    #finalSection h1{
+        font-size: 2.5em;
+        margin-bottom: 0;
     }
     #finalSection img{
+        margin: 3% auto;
         width: 40vw;
     }
     #finalSectionFinalP{
